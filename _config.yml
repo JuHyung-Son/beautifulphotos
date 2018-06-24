@@ -1,0 +1,25 @@
+# Base configs
+baseurl: "http://jusonn.github.io/beautifulphotos"
+image_fulls_loc: "/images/fulls"
+image_thumbs_loc: "/images/thumbs"
+google_analytics: "UA-87765338-5"
+
+# UI configs
+title: "Photography by JuHyung"
+subtitle: "See the JuWorld"
+author: "JuHyung Son"
+header:
+ title: "Photography"
+ subtitle: "by JuHyung Son"
+footer:
+ name: "You are in JuWorld"
+ bio: "This is where you can see the world through JuWorld"
+ github: "This is photography github"
+web_design: "JH"
+social_urls:
+  facebook: "https://www.facebook.com/juson"
+  twitter: "https://www.twitter.com/"
+  instagram: "https://www.instagram.com/ju_world"
+  dribbble: "https://dribbble.com"
+  linkedin: "https://in.linkedin.com/"
+  github: "https://www.github.com/jusonn"
