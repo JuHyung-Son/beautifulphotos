@@ -1,25 +1,25 @@
-# Base configs
-baseurl: "http://jusonn.github.io/beautifulphotos"
-image_fulls_loc: "/images/fulls"
-image_thumbs_loc: "/images/thumbs"
-google_analytics: "UA-87765338-5"
-
-# UI configs
-title: "Photography by JuHyung"
-subtitle: "See the JuWorld"
+# Site settings
+title: Lens
+description: Just another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a>
+baseurl: "http://jusonn.github.io/beautifulphotos/" # the subpath of your site, e.g. /blog
+url: "http://jusonn.github.io/beautifulphotos/" # the base hostname & protocol for your site
 author: "JuHyung Son"
-header:
- title: "Photography"
- subtitle: "by JuHyung Son"
-footer:
- name: "You are in JuWorld"
- bio: "This is where you can see the world through JuWorld"
- github: "This is photography github"
-web_design: "JH"
-social_urls:
-  facebook: "https://www.facebook.com/juson"
-  twitter: "https://www.twitter.com/"
-  instagram: "https://www.instagram.com/ju_world"
-  dribbble: "https://dribbble.com"
-  linkedin: "https://in.linkedin.com/"
-  github: "https://www.github.com/jusonn"
+
+# Collection settings
+collections:
+  photos:
+
+# Social settings
+500px_url:
+facebook_url:
+github_url: http://jusonn.github.io
+gitlab_url:
+googleplus_url:
+instagram_url: http://instagram.com/juworld
+linkedin_url:
+pinterest_url:
+slack_url:
+twitter_url:
+
+# Build settings
+markdown: kramdown

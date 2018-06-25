@@ -8,21 +8,21 @@ var rename = require('gulp-rename');
 var del = require('del');
 
 gulp.task('resize', function () {
-    return gulp.src('images/*.jpg')
+    return gulp.src('assets/images/*.*')
         .pipe(imageResize({
-            width: 1024,
+            width: 1200,
             imageMagick: true
         }))
-        .pipe(gulp.dest('images/fulls'))
+        .pipe(gulp.dest('assets/images/fulls'))
         .pipe(imageResize({
-            width: 512,
+            width: 360,
             imageMagick: true
         }))
-        .pipe(gulp.dest('images/thumbs'));
+        .pipe(gulp.dest('assets/images/thumbs'));
 });
 
 gulp.task('del', ['resize'], function () {
-    return del(['images/*.*']);
+    return del(['assets/images/*.*']);
 });
 
 // compile scss to css
