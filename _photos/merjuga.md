@@ -1,3 +1,4 @@
+---
 title: 메르주가
 image: assets/images/fulls/22.jpg
 thumbnail: assets/images/thumbs/22.jpg

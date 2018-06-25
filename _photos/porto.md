@@ -1,3 +1,4 @@
+---
 title: 포르토 와인
 image: assets/images/fulls/20.jpg
 thumbnail: assets/images/thumbs/20.jpg
