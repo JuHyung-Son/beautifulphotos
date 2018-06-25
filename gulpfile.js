@@ -10,7 +10,7 @@ var del = require('del');
 gulp.task('resize', function () {
     return gulp.src('assets/images/*.*')
         .pipe(imageResize({
-            height: 1080,
+            width: 2048,
             quality: 1,
             filter: "Catrom",
 
