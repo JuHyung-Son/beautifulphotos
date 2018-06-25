@@ -11,6 +11,9 @@ gulp.task('resize', function () {
     return gulp.src('assets/images/*.*')
         .pipe(imageResize({
             width: 1200,
+            quality: 1,
+            filter: "Catrom",
+
             imageMagick: true
         }))
         .pipe(gulp.dest('assets/images/fulls'))
