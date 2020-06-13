@@ -769,5 +769,5 @@ var main = (function($) { var _ = {
 
 }; return _; })(jQuery); main.init();
 
-$('#viewer').click(function() { $('#viewer .inner').fadeToggle(); })
-$('#viewer .inner').click(function(e) { e.stopPropagation(); })
+// $('#viewer').click(function() { $('#viewer .inner').fadeToggle(); })
+// $('#viewer .inner').click(function(e) { e.stopPropagation(); })
