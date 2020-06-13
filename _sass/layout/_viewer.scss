@@ -48,10 +48,10 @@
 			}
 
 			&:before {
-				// @include vendor('background-image', (
+				@include vendor('background-image', (
 				// 	'linear-gradient(left, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0))',
 				// 	'linear-gradient(right, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0))'
-				// ));
+				));
 				background-image: '';
 				content: '';
 				display: block;
